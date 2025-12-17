@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: adr-example-service
+  title: ADR Example Service
+  description: |
+    Example service demonstrating the ADR (Architecture Decision Records) plugin.
+    This component has architectural decisions documented in the ADRs tab.
+  annotations:
+    # ADR plugin annotation - relative path to ADR files
+    backstage.io/adr-location: docs/adrs
+  tags:
+    - example
+    - adr
+    - documentation
+  links:
+    - url: https://adr.github.io/
+      title: ADR Homepage
+      icon: docs
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/guest
+
