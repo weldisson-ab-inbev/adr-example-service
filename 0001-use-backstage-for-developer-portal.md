@@ -4,7 +4,7 @@ Date: 2024-01-15
 
 ## Status
 
-Deprecated
+Accepted
 
 ## Context
 
@@ -29,7 +29,7 @@ We will use Backstage as our Developer Portal platform because:
 - Standardized documentation across teams
 - Faster onboarding for new developers
 - Better discoverability of internal tools and services
-- TEST
+- test
 
 ### Negative
 
